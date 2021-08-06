@@ -1,0 +1,38 @@
+body {
+  font: 24px 'Century Gothic', Futura, sans-serif;
+  margin: 20px;
+
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.login-container {
+  max-width: 250px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 250px;
+  border: 1px solid rgb(8, 15, 20);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.button{
+  background-color: #3c9bee; 
+  border: none;
+  margin: 30px auto;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  min-height: 20px;
+  min-width: 180px;
+  text-align: center;
+
+}
+ 
+
+ 
