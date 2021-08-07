@@ -16,14 +16,14 @@ const QuestionPage = (props) => {
       const json = await response.json();
 
       setState(json)
-      console.log(json);
+
     } catch (error) {
       console.log("error", error);
     }
   };
 
 
-  console.log("State: ", state)
+ 
   return (
     <div className="mt-4">
       <div><h2>Top Questions</h2></div><hr />

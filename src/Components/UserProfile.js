@@ -20,14 +20,14 @@ const UserProfile = (props) => {
       const json = await response.json();
 
       setUserid(json.items[0])
-      console.log(json);
+
     } catch (error) {
       console.log("error", error);
     }
   };
 
 
-  console.log("Statide: ", userid)
+
 
 
   const tag_url = `https://api.stackexchange.com/2.3/users/${t.substring(1)}/tags?key=U4DMV*8nvpm3EOpvf69Rxw((&site=stackoverflow&order=desc&sort=popular&filter=default`
@@ -38,12 +38,12 @@ const UserProfile = (props) => {
       const json = await response.json();
 
       setUsertag(json.items)
-      console.log(json);
+
     } catch (error) {
       console.log("error", error);
     }
   };
-  console.log("StateTag: ", usertag)
+
 
 
   const post_url = `https://api.stackexchange.com/2.3/users/${t.substring(1)}/questions?key=U4DMV*8nvpm3EOpvf69Rxw((&site=stackoverflow&order=desc&sort=activity&filter=default`
@@ -54,12 +54,12 @@ const UserProfile = (props) => {
       const json = await response.json();
 
       setUserpost(json.items)
-      console.log(json);
+
     } catch (error) {
       console.log("error", error);
     }
   };
-  console.log("Statepost: ", userpost)
+
 
 
   useEffect(() => {
